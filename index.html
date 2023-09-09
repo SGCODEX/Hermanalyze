@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width,initial-scale=1.0">
+        <title>Hackathon Responsive Nav Bar</title>
+        <link rel="stylesheet" type="text/css" href="final.css">
+
+        <style>
+            #image-container {
+                display: none;
+                text-align: center; /* Center align the button */
+            }
+        
+            img {
+                height: 400px;
+                width:550px;
+                position: fixed;
+                top: 100px;
+                bottom: 20px;
+                right: 20px; /* Ensure the image fits within the container */
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="Logo_pic" src="logo1.jpg" alt="logo_pic">
+            <img id="Logo_pic1" src="logo2.png" alt="logo_pic1">
+            <div class="menu-toggle"></div>
+            
+    <ul class="navbar">
+        <li><a href="fs.html">Future Scopes</a></li>
+        <li><a href="https://www.drugs.com/medical-answers/common-skin-conditions-photos-3573649/">Common Skin Diseases</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
+        <li><a href="Intro.html">Home</a></li>
+    </ul>
+        </header>
+
+    <div class="body_elements">
+    <img id="text1" src="text.png" alt="text_pic">
+
+    <h1>Image Processing</h1>
+    
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept=".png, .jpg, .jpeg">
+        <input type="submit" value="Upload and Process">
+    </form>
+    
+    {% if output %}
+        <h2>Processing Result:</h2>
+        <p>{{ output }}</p>
+    {% endif %}
+</body>
+</html>

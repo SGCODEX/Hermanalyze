@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200.300,400,500,600,700,800,900&display=swap');
+
+html, body
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    background: url(background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header
+{
+    position: relative;
+}
+
+#Logo_pic {
+    height: 80px;
+    width:160px;
+    position: fixed;
+    top: 15px;
+    bottom: 475px;
+    left: 15px;
+}
+
+#Logo_pic1 {
+    height: 80px;
+    width:160px;
+    position: fixed;
+    top: 15px;
+    bottom: 475px;
+    left: 190px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+}
+
+ul.navbar li {
+    float: right;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+ul.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul.navbar li a:hover,
+ul.navbar li a.active {
+    background: green;
+    color: #fff;
+    transition:0.2s;
+}
+
+
+.body_elements {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    min-height: 100vh;
+}
+
+.button-container {
+    margin-left:280px;
+    margin-bottom: 130px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #88FF88; /* Light Green */
+    color: #007700; /* Dark Green for text color */
+    text-decoration: none;
+    border: 2px solid #007700; /* Dark Green border */
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #FFFFFF; /* White */
+    color: #FF0000; /* Red */
+}
+
+#img1 {
+    height: 530px;
+    width:550px;
+    position: fixed;
+    top: 100px;
+    bottom: 20px;
+    right: 20px;
+}
+
+#text1 {
+    height: 350px;
+    width:700;
+    position: fixed;
+    top: 130px;
+    left: 50px;
+}
+
+.center {
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;  
+}
+
